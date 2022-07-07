@@ -931,8 +931,8 @@ export const ordersGrid = [
 export const customersData = [
   {
     CustomerID: 1001,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -940,13 +940,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1002,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -955,13 +955,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1003,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -974,7 +974,7 @@ export const customersData = [
   {
     CustomerID: 1004,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -1001,8 +1001,8 @@ export const customersData = [
   },
   {
     CustomerID: 1006,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1010,13 +1010,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1007,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -1025,13 +1025,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1008,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -1044,7 +1044,7 @@ export const customersData = [
   {
     CustomerID: 1009,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -1071,8 +1071,8 @@ export const customersData = [
   },
   {
     CustomerID: 1011,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1080,13 +1080,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1012,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -1095,13 +1095,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1013,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -1114,7 +1114,7 @@ export const customersData = [
   {
     CustomerID: 1014,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -1141,8 +1141,8 @@ export const customersData = [
   },
   {
     CustomerID: 1016,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1150,13 +1150,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1017,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -1165,13 +1165,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1018,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -1184,7 +1184,7 @@ export const customersData = [
   {
     CustomerID: 1019,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -1211,8 +1211,8 @@ export const customersData = [
   },
   {
     CustomerID: 1021,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1220,13 +1220,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1022,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -1235,13 +1235,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1023,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -1254,7 +1254,7 @@ export const customersData = [
   {
     CustomerID: 1024,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -1281,8 +1281,8 @@ export const customersData = [
   },
   {
     CustomerID: 1026,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1290,13 +1290,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1027,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -1305,13 +1305,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1028,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -1324,7 +1324,7 @@ export const customersData = [
   {
     CustomerID: 1029,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -1351,8 +1351,8 @@ export const customersData = [
   },
   {
     CustomerID: 1031,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1360,13 +1360,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1032,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -1375,13 +1375,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1033,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -1394,7 +1394,7 @@ export const customersData = [
   {
     CustomerID: 1034,
 
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -1421,8 +1421,8 @@ export const customersData = [
   },
   {
     CustomerID: 1036,
-    CustomerName: 'Nirav Joshi',
-    CustomerEmail: 'nirav@gmail.com',
+    CustomerName: 'Oloye',
+    CustomerEmail: 'oloye@gmail.com',
     CustomerImage:
       avatar2,
     ProjectName: 'Hosting Press HTML',
@@ -1430,13 +1430,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '40',
     Budget: '$2.4k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1037,
 
-    CustomerName: 'Sunil Joshi',
-    CustomerEmail: 'sunil@gmail.com',
+    CustomerName: 'Ronke',
+    CustomerEmail: 'ronke-belle@gmail.com',
     ProjectName: 'Elite Admin',
     Status: 'Active',
     CustomerImage:
@@ -1445,13 +1445,13 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '11',
     Budget: '$3.9k',
-    Location: 'India',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1038,
 
-    CustomerName: 'Andrew McDownland',
-    CustomerEmail: 'andrew@gmail.com',
+    CustomerName: 'Frank Edoho',
+    CustomerEmail: 'f.edoho@gmail.com',
     ProjectName: 'Real Homes WP Theme',
     Status: 'Pending',
     CustomerImage:
@@ -1463,7 +1463,7 @@ export const customersData = [
   },
   {
     CustomerID: 1039,
-    CustomerName: 'Christopher Jamil',
+    CustomerName: "Nura Al'hassan",
     CustomerEmail: 'jamil@gmail.com',
     ProjectName: 'MedicalPro WP Theme',
     Status: 'Completed',
@@ -3120,7 +3120,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'India',
+    name: 'Lagos',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
