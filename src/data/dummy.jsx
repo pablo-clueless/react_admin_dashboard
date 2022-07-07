@@ -12,7 +12,7 @@ import { GiLouvrePyramid } from 'react-icons/gi'
 import { GrLocation } from 'react-icons/gr'
 import avatar from './avatar.jpg'
 import avatar2 from './avatar2.jpg'
-import avatar3 from './avatar3.png'
+import avatar3 from './avatar3.jpg'
 import avatar4 from './avatar4.jpg'
 import product1 from './product1.jpg'
 import product2 from './product2.jpg'
@@ -222,7 +222,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'USA',
+    name: 'Lagos',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -241,7 +241,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[2],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Makurdi',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -250,17 +250,17 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: 'USA', y: 46 },
+    { x: 'Lagos', y: 46 },
     { x: 'GBR', y: 27 },
     { x: 'CHN', y: 26 },
   ],
   [
-    { x: 'USA', y: 37 },
+    { x: 'Lagos', y: 37 },
     { x: 'GBR', y: 23 },
     { x: 'CHN', y: 18 },
   ],
   [
-    { x: 'USA', y: 38 },
+    { x: 'Lagos', y: 38 },
     { x: 'GBR', y: 17 },
     { x: 'CHN', y: 26 },
   ],
@@ -969,7 +969,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1004,
@@ -983,7 +983,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1005,
@@ -997,7 +997,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1006,
@@ -1039,7 +1039,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1009,
@@ -1053,7 +1053,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1010,
@@ -1067,7 +1067,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1011,
@@ -1109,7 +1109,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1014,
@@ -1123,7 +1123,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1015,
@@ -1137,7 +1137,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1016,
@@ -1179,7 +1179,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1019,
@@ -1193,7 +1193,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1020,
@@ -1207,7 +1207,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1021,
@@ -1249,7 +1249,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1024,
@@ -1263,7 +1263,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1025,
@@ -1277,7 +1277,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1026,
@@ -1319,7 +1319,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1029,
@@ -1333,7 +1333,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1030,
@@ -1347,7 +1347,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1031,
@@ -1389,7 +1389,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1034,
@@ -1403,7 +1403,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1035,
@@ -1417,7 +1417,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1036,
@@ -1459,7 +1459,7 @@ export const customersData = [
     StatusBg: '#FEC90F',
     Weeks: '19',
     Budget: '$24.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1039,
@@ -1472,7 +1472,7 @@ export const customersData = [
     StatusBg: '#8BE78B',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
   {
     CustomerID: 1040,
@@ -1485,7 +1485,7 @@ export const customersData = [
     StatusBg: 'red',
     Weeks: '34',
     Budget: '$16.5k',
-    Location: 'USA',
+    Location: 'Lagos',
   },
 
 ]
@@ -1493,638 +1493,638 @@ export const customersData = [
 export const employeesData = [
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar3,
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar,
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 1,
-    Name: 'Nancy Davolio',
+    Name: 'Victoria Manny',
     Title: 'Sales Representative',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
     avatar2,
 
   },
   {
     EmployeeID: 2,
-    Name: 'Nasimiyu Danai',
+    Name: 'Eniola Kareem',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar3,
   },
   {
     EmployeeID: 3,
-    Name: 'Iulia Albu',
+    Name: 'Abdul Ayinla',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar4,
   },
   {
     EmployeeID: 4,
-    Name: 'Siegbert Gottfried',
+    Name: 'Richard Chukwuka',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
   {
     EmployeeID: 5,
-    Name: 'Omar Darobe',
+    Name: 'Umar Rabiu',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 4,
-    Name: 'Penjani Inyene',
+    Name: 'Ovie Alexis',
     Title: 'Marketing Head',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar,
   },
   {
     EmployeeID: 5,
-    Name: 'Miron Vitold',
+    Name: 'Michael Ani',
     Title: 'HR',
     HireDate: '01/02/2021',
-    Country: 'USA',
-    ReportsTo: 'Carson',
+    Country: 'Lagos',
+    ReportsTo: 'Pablo',
     EmployeeImage:
       avatar2,
   },
@@ -2133,11 +2133,11 @@ export const employeesData = [
 export const ordersData = [
   {
     OrderID: 10248,
-    CustomerName: 'Vinet',
+    CustomerName: 'Kikelomo',
 
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2145,10 +2145,10 @@ export const ordersData = [
   },
   {
     OrderID: 345653,
-    CustomerName: 'Carson Darrin',
+    CustomerName: 'Kenneth Okafor',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2156,10 +2156,10 @@ export const ordersData = [
   },
   {
     OrderID: 390457,
-    CustomerName: 'Fran Perez',
+    CustomerName: 'Ahmed Dami',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
-    Location: 'New York',
+    Location: 'Port-Harcourt',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2167,10 +2167,10 @@ export const ordersData = [
   },
   {
     OrderID: 893486,
-    CustomerName: 'Anika Viseer',
+    CustomerName: 'Essien Imabong',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
-    Location: 'Germany',
+    Location: 'Makurdi',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2178,10 +2178,10 @@ export const ordersData = [
   },
   {
     OrderID: 748975,
-    CustomerName: 'Miron Vitold',
+    CustomerName: 'Michael Ani',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
-    Location: 'Spain',
+    Location: 'Ibadan',
     Status: 'rejected',
     StatusBg: 'red',
     ProductImage:
@@ -2189,10 +2189,10 @@ export const ordersData = [
   },
   {
     OrderID: 94757,
-    CustomerName: 'Omar Darobe',
+    CustomerName: 'Umar Rabiu',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2200,10 +2200,10 @@ export const ordersData = [
   },
   {
     OrderID: 944895,
-    CustomerName: 'Lulia albu',
+    CustomerName: 'Oloye',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2211,10 +2211,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Penjani',
+    CustomerName: 'Ichie Nwosu',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2222,10 +2222,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Jie Yan',
+    CustomerName: 'Dan Kudi',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2233,10 +2233,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2244,10 +2244,10 @@ export const ordersData = [
   },
   {
     OrderID: 38489,
-    CustomerName: 'Miron',
+    CustomerName: 'Nwanyi-agu',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2258,7 +2258,7 @@ export const ordersData = [
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2266,10 +2266,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2277,11 +2277,11 @@ export const ordersData = [
   },
   {
     OrderID: 10248,
-    CustomerName: 'Vinet',
+    CustomerName: 'Kikelomo',
 
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2289,10 +2289,10 @@ export const ordersData = [
   },
   {
     OrderID: 345653,
-    CustomerName: 'Carson Darrin',
+    CustomerName: 'Kenneth Okafor',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2300,10 +2300,10 @@ export const ordersData = [
   },
   {
     OrderID: 390457,
-    CustomerName: 'Fran Perez',
+    CustomerName: 'Ahmed Dami',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
-    Location: 'New York',
+    Location: 'Port-Harcourt',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2311,10 +2311,10 @@ export const ordersData = [
   },
   {
     OrderID: 893486,
-    CustomerName: 'Anika Viseer',
+    CustomerName: 'Essien Imabong',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
-    Location: 'Germany',
+    Location: 'Makurdi',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2322,10 +2322,10 @@ export const ordersData = [
   },
   {
     OrderID: 748975,
-    CustomerName: 'Miron Vitold',
+    CustomerName: 'Michael Ani',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
-    Location: 'Spain',
+    Location: 'Ibadan',
     Status: 'rejected',
     StatusBg: 'red',
     ProductImage:
@@ -2333,10 +2333,10 @@ export const ordersData = [
   },
   {
     OrderID: 94757,
-    CustomerName: 'Omar Darobe',
+    CustomerName: 'Umar Rabiu',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2344,10 +2344,10 @@ export const ordersData = [
   },
   {
     OrderID: 944895,
-    CustomerName: 'Lulia albu',
+    CustomerName: 'Oloye',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2355,10 +2355,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Penjani',
+    CustomerName: 'Ichie Nwosu',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2366,10 +2366,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Jie Yan',
+    CustomerName: 'Dan Kudi',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2377,10 +2377,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2388,10 +2388,10 @@ export const ordersData = [
   },
   {
     OrderID: 38489,
-    CustomerName: 'Miron',
+    CustomerName: 'Nwanyi-agu',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2402,7 +2402,7 @@ export const ordersData = [
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2410,10 +2410,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2421,11 +2421,11 @@ export const ordersData = [
   },
   {
     OrderID: 10248,
-    CustomerName: 'Vinet',
+    CustomerName: 'Kikelomo',
 
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2433,10 +2433,10 @@ export const ordersData = [
   },
   {
     OrderID: 345653,
-    CustomerName: 'Carson Darrin',
+    CustomerName: 'Kenneth Okafor',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2444,10 +2444,10 @@ export const ordersData = [
   },
   {
     OrderID: 390457,
-    CustomerName: 'Fran Perez',
+    CustomerName: 'Ahmed Dami',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
-    Location: 'New York',
+    Location: 'Port-Harcourt',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2455,10 +2455,10 @@ export const ordersData = [
   },
   {
     OrderID: 893486,
-    CustomerName: 'Anika Viseer',
+    CustomerName: 'Essien Imabong',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
-    Location: 'Germany',
+    Location: 'Makurdi',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2466,10 +2466,10 @@ export const ordersData = [
   },
   {
     OrderID: 748975,
-    CustomerName: 'Miron Vitold',
+    CustomerName: 'Michael Ani',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
-    Location: 'Spain',
+    Location: 'Ibadan',
     Status: 'rejected',
     StatusBg: 'red',
     ProductImage:
@@ -2477,10 +2477,10 @@ export const ordersData = [
   },
   {
     OrderID: 94757,
-    CustomerName: 'Omar Darobe',
+    CustomerName: 'Umar Rabiu',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2488,10 +2488,10 @@ export const ordersData = [
   },
   {
     OrderID: 944895,
-    CustomerName: 'Lulia albu',
+    CustomerName: 'Oloye',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2499,10 +2499,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Penjani',
+    CustomerName: 'Ichie Nwosu',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2510,10 +2510,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Jie Yan',
+    CustomerName: 'Dan Kudi',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2521,10 +2521,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2532,10 +2532,10 @@ export const ordersData = [
   },
   {
     OrderID: 38489,
-    CustomerName: 'Miron',
+    CustomerName: 'Nwanyi-agu',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2546,7 +2546,7 @@ export const ordersData = [
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2554,10 +2554,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2565,11 +2565,11 @@ export const ordersData = [
   },
   {
     OrderID: 10248,
-    CustomerName: 'Vinet',
+    CustomerName: 'Kikelomo',
 
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2577,10 +2577,10 @@ export const ordersData = [
   },
   {
     OrderID: 345653,
-    CustomerName: 'Carson Darrin',
+    CustomerName: 'Kenneth Okafor',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2588,10 +2588,10 @@ export const ordersData = [
   },
   {
     OrderID: 390457,
-    CustomerName: 'Fran Perez',
+    CustomerName: 'Ahmed Dami',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
-    Location: 'New York',
+    Location: 'Port-Harcourt',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2599,10 +2599,10 @@ export const ordersData = [
   },
   {
     OrderID: 893486,
-    CustomerName: 'Anika Viseer',
+    CustomerName: 'Essien Imabong',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
-    Location: 'Germany',
+    Location: 'Makurdi',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2610,10 +2610,10 @@ export const ordersData = [
   },
   {
     OrderID: 748975,
-    CustomerName: 'Miron Vitold',
+    CustomerName: 'Michael Ani',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
-    Location: 'Spain',
+    Location: 'Ibadan',
     Status: 'rejected',
     StatusBg: 'red',
     ProductImage:
@@ -2621,10 +2621,10 @@ export const ordersData = [
   },
   {
     OrderID: 94757,
-    CustomerName: 'Omar Darobe',
+    CustomerName: 'Umar Rabiu',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2632,10 +2632,10 @@ export const ordersData = [
   },
   {
     OrderID: 944895,
-    CustomerName: 'Lulia albu',
+    CustomerName: 'Oloye',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2643,10 +2643,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Penjani',
+    CustomerName: 'Ichie Nwosu',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2654,10 +2654,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Jie Yan',
+    CustomerName: 'Dan Kudi',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2665,10 +2665,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2676,10 +2676,10 @@ export const ordersData = [
   },
   {
     OrderID: 38489,
-    CustomerName: 'Miron',
+    CustomerName: 'Nwanyi-agu',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2690,7 +2690,7 @@ export const ordersData = [
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2698,10 +2698,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2709,11 +2709,11 @@ export const ordersData = [
   },
   {
     OrderID: 10248,
-    CustomerName: 'Vinet',
+    CustomerName: 'Kikelomo',
 
     TotalAmount: 32.38,
     OrderItems: 'Fresh Tomato',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2721,10 +2721,10 @@ export const ordersData = [
   },
   {
     OrderID: 345653,
-    CustomerName: 'Carson Darrin',
+    CustomerName: 'Kenneth Okafor',
     TotalAmount: 56.34,
     OrderItems: 'Butter Scotch',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2732,10 +2732,10 @@ export const ordersData = [
   },
   {
     OrderID: 390457,
-    CustomerName: 'Fran Perez',
+    CustomerName: 'Ahmed Dami',
     TotalAmount: 93.31,
     OrderItems: 'Candy Gucci',
-    Location: 'New York',
+    Location: 'Port-Harcourt',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2743,10 +2743,10 @@ export const ordersData = [
   },
   {
     OrderID: 893486,
-    CustomerName: 'Anika Viseer',
+    CustomerName: 'Essien Imabong',
     TotalAmount: 93.31,
     OrderItems: 'Night Lamp',
-    Location: 'Germany',
+    Location: 'Makurdi',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2754,10 +2754,10 @@ export const ordersData = [
   },
   {
     OrderID: 748975,
-    CustomerName: 'Miron Vitold',
+    CustomerName: 'Michael Ani',
     TotalAmount: 23.99,
     OrderItems: 'Healthcare Erbology',
-    Location: 'Spain',
+    Location: 'Ibadan',
     Status: 'rejected',
     StatusBg: 'red',
     ProductImage:
@@ -2765,10 +2765,10 @@ export const ordersData = [
   },
   {
     OrderID: 94757,
-    CustomerName: 'Omar Darobe',
+    CustomerName: 'Umar Rabiu',
     TotalAmount: 95.99,
     OrderItems: 'Makeup Lancome Rouge',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2776,10 +2776,10 @@ export const ordersData = [
   },
   {
     OrderID: 944895,
-    CustomerName: 'Lulia albu',
+    CustomerName: 'Oloye',
     TotalAmount: 17.99,
     OrderItems: 'Skincare',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2787,10 +2787,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Penjani',
+    CustomerName: 'Ichie Nwosu',
     TotalAmount: 59.99,
     OrderItems: 'Headphone',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2798,10 +2798,10 @@ export const ordersData = [
   },
   {
     OrderID: 845954,
-    CustomerName: 'Jie Yan',
+    CustomerName: 'Dan Kudi',
     TotalAmount: 87.99,
     OrderItems: 'Shoes',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'pending',
     StatusBg: '#FB9678',
     ProductImage:
@@ -2809,10 +2809,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2820,10 +2820,10 @@ export const ordersData = [
   },
   {
     OrderID: 38489,
-    CustomerName: 'Miron',
+    CustomerName: 'Nwanyi-agu',
     TotalAmount: 87.99,
     OrderItems: 'Ice Cream',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'active',
     StatusBg: '#03C9D7',
     ProductImage:
@@ -2834,7 +2834,7 @@ export const ordersData = [
     CustomerName: 'Frank',
     TotalAmount: 84.99,
     OrderItems: 'Pan Cake',
-    Location: 'Delhi',
+    Location: 'Awka',
     Status: 'complete',
     StatusBg: '#8BE78B',
     ProductImage:
@@ -2842,10 +2842,10 @@ export const ordersData = [
   },
   {
     OrderID: 874534,
-    CustomerName: 'Danai',
+    CustomerName: 'Iyalode',
     TotalAmount: 122.99,
     OrderItems: 'Watch',
-    Location: 'USA',
+    Location: 'Lagos',
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
@@ -2857,7 +2857,7 @@ export const scheduleData = [
   {
     Id: 1,
     Subject: 'Explosion of Betelgeuse Star',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-10T04:00:00.000Z',
     EndTime: '2021-01-10T05:30:00.000Z',
     CategoryColor: '#1aaa55',
@@ -2873,7 +2873,7 @@ export const scheduleData = [
   {
     Id: 3,
     Subject: 'Blue Moon Eclipse',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-12T04:00:00.000Z',
     EndTime: '2021-01-12T05:30:00.000Z',
     CategoryColor: '#7fa900',
@@ -2881,7 +2881,7 @@ export const scheduleData = [
   {
     Id: 4,
     Subject: 'Meteor Showers in 2021',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-13T07:30:00.000Z',
     EndTime: '2021-01-13T09:00:00.000Z',
     CategoryColor: '#ea7a57',
@@ -2889,7 +2889,7 @@ export const scheduleData = [
   {
     Id: 5,
     Subject: 'Milky Way as Melting pot',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-14T06:30:00.000Z',
     EndTime: '2021-01-14T08:30:00.000Z',
     CategoryColor: '#00bdae',
@@ -2913,7 +2913,7 @@ export const scheduleData = [
   {
     Id: 8,
     Subject: 'Life on Mars',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-16T03:30:00.000Z',
     EndTime: '2021-01-16T04:30:00.000Z',
     CategoryColor: '#357cd2',
@@ -2921,7 +2921,7 @@ export const scheduleData = [
   {
     Id: 9,
     Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-18T05:30:00.000Z',
     EndTime: '2021-01-18T07:30:00.000Z',
     CategoryColor: '#7fa900',
@@ -2953,7 +2953,7 @@ export const scheduleData = [
   {
     Id: 13,
     Subject: 'Myths of Andromeda Galaxy',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-06T05:00:00.000Z',
     EndTime: '2021-01-06T07:00:00.000Z',
     CategoryColor: '#1aaa55',
@@ -2961,7 +2961,7 @@ export const scheduleData = [
   {
     Id: 14,
     Subject: 'Aliens vs Humans',
-    Location: 'Research Center of USA',
+    Location: 'Research Center of Lagos',
     StartTime: '2021-01-05T04:30:00.000Z',
     EndTime: '2021-01-05T06:00:00.000Z',
     CategoryColor: '#357cd2',
@@ -2985,7 +2985,7 @@ export const scheduleData = [
   {
     Id: 17,
     Subject: 'The Cycle of Seasons',
-    Location: 'Research Center of USA',
+    Location: 'Research Center of Lagos',
     StartTime: '2021-01-11T00:00:00.000Z',
     EndTime: '2021-01-11T02:00:00.000Z',
     CategoryColor: '#00bdae',
@@ -2993,7 +2993,7 @@ export const scheduleData = [
   {
     Id: 18,
     Subject: 'Space Galaxies and Planets',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-11T11:30:00.000Z',
     EndTime: '2021-01-11T13:00:00.000Z',
     CategoryColor: '#f57f17',
@@ -3009,7 +3009,7 @@ export const scheduleData = [
   {
     Id: 20,
     Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-14T10:30:00.000Z',
     EndTime: '2021-01-14T12:30:00.000Z',
     CategoryColor: '#ea7a57',
@@ -3017,7 +3017,7 @@ export const scheduleData = [
   {
     Id: 21,
     Subject: 'Alien Civilization',
-    Location: 'Space Center USA',
+    Location: 'Space Center Lagos',
     StartTime: '2021-01-10T08:30:00.000Z',
     EndTime: '2021-01-10T10:30:00.000Z',
     CategoryColor: '#ea7a57',
@@ -3025,7 +3025,7 @@ export const scheduleData = [
   {
     Id: 22,
     Subject: 'The Cycle of Seasons',
-    Location: 'Research Center of USA',
+    Location: 'Research Center of Lagos',
     StartTime: '2021-01-12T09:00:00.000Z',
     EndTime: '2021-01-12T10:30:00.000Z',
     CategoryColor: '#00bdae',
@@ -3104,7 +3104,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Germany',
+    name: 'Makurdi',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
