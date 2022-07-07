@@ -22,6 +22,8 @@ import product5 from './product5.jpg'
 import product6 from './product6.jpg'
 import product7 from './product7.jpg'
 import product8 from './product8.jpg'
+import product9 from './product9.jpg'
+import product10 from './product10.jpg'
 
 export const gridOrderImage = (props) => (
   <div>
@@ -61,6 +63,7 @@ export const kanbanGrid = [
     keyField: 'Close',
     allowToggle: true },
 ]
+
 const gridEmployeeProfile = (props) => (
   <div className="flex items-center gap-2">
     <img
@@ -78,6 +81,7 @@ const gridEmployeeCountry = (props) => (
     <span>{props.Country}</span>
   </div>
 )
+
 export const EditorData = () => (
   <div>
     <h3>
@@ -140,6 +144,7 @@ const customerGridStatus = (props) => (
     <p>{props.Status}</p>
   </div>
 )
+
 export const areaPrimaryXAxis = {
   valueType: 'DateTime',
   labelFormat: 'y',
@@ -159,17 +164,20 @@ export const areaPrimaryYAxis = {
   labelStyle: { color: 'gray' },
 
 }
+
 export const barPrimaryXAxis = {
   valueType: 'Category',
   interval: 1,
   majorGridLines: { width: 0 },
 }
+
 export const barPrimaryYAxis = {
   majorGridLines: { width: 0 },
   majorTickLines: { width: 0 },
   lineStyle: { width: 0 },
   labelStyle: { color: 'transparent' },
 }
+
 const areaChartData = [
   [
     { x: new Date(2002, 0, 1), y: 2.2 },
@@ -302,6 +310,7 @@ export const barCustomSeries = [
     },
   },
 ]
+
 export const colorMappingData = [
   [
     { x: 'Jan', y: 6.96 },
@@ -2231,7 +2240,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 38489,
@@ -2264,7 +2273,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 10248,
@@ -2375,7 +2384,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 38489,
@@ -2408,7 +2417,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 10248,
@@ -2519,7 +2528,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 38489,
@@ -2552,7 +2561,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 10248,
@@ -2663,7 +2672,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 38489,
@@ -2696,7 +2705,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 10248,
@@ -2807,7 +2816,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
   {
     OrderID: 38489,
@@ -2840,7 +2849,7 @@ export const ordersData = [
     Status: 'canceled',
     StatusBg: '#FF5C8E',
     ProductImage:
-      'https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/pop-womens-garmin-watches-1641919013.jpg?crop=0.502xw:1.00xh0.250xw,0&resize=640:*',
+      product10,
   },
 ]
 
