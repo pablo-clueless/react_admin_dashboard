@@ -23,7 +23,7 @@ const Sidebar = () => {
         <>
         <div className='flex justify-between items-center'>
           <Link to='/' onClick={handleCloseSideBar} className='items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900'>
-            <SiShopware /><span>Shoppy</span>
+            <SiShopware /><span>Admin Dashboard</span>
           </Link>
           <TooltipComponent content='Menu' position='BottomCenter'>
             <button type='button' onClick={() => setActiveMenu((prevState) => !prevState)} className='text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidden'>
