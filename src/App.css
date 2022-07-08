@@ -9,6 +9,11 @@
   z-index: 10000;
 }
 
+.search-backdrop {
+  z-index: 1000000000 !important;
+  backdrop-filter: blur(2px);
+}
+
 @media  screen and (max-width:800px) {
   .sidebar{
     z-index: 10000000;

@@ -5,11 +5,18 @@ import { IoIosMore } from 'react-icons/io'
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns'
 
 import { Button, LineChart, PieChart, SparkLine, StackedChart } from '../components'
-import { ecomPieChartData, earningData, SparklineAreaData } from '../data/dummy'
+import { ecomPieChartData, earningData, SparklineAreaData, recentTransactions, dropdownData, medicalproBranding, weeklyStats } from '../data/dummy'
 import { useStateContext } from '../contexts/ContextProvider'
+import product9 from '../data/product9.jpg'
+
+const DropDown = ({ currentMode }) => (
+  <div className="w-28 border-1 border-color px-2 py-1 rounded-md">
+    <DropDownListComponent id="time" fields={{text: 'Time',value: 'Id'}} style={{ border: 'none', color: (currentMode === 'Dark') && 'white' }} value="1" dataSource={dropdownData} popupHeight="220px" popupWidth="120px" />
+  </div>
+)
 
 const Ecommerce = () => {
-  const { currentColor } = useStateContext()
+  const { currentColor, currentMode } = useStateContext()
 
   return (
     <div className='mt-12'>
@@ -88,6 +95,151 @@ const Ecommerce = () => {
             <div>
               <StackedChart width='320px' height='360px' />
             </div>
+            <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl md:w-400 p-8 m-3 flex justify-center items-center gap-10">
+              <div>
+                <p className="text-2xl font-semibold ">$43,246</p>
+                <p className="text-gray-400">Yearly sales</p>
+              </div>
+
+              <div className="w-40">
+                <PieChart id="pie-chart" data={ecomPieChartData} legendVisiblity={false} height="160px" />
+              </div>
+            </div>
+
+            <div className="flex gap-10 m-4 flex-wrap justify-center">
+              <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl">
+                <div className="flex justify-between items-center gap-2">
+                  <p className="text-xl font-semibold">Recent Transactions</p>
+                  <DropDown currentMode={currentMode} />
+                </div>
+                <div className="mt-10 w-72 md:w-400">
+                  {recentTransactions.map((item) => (
+                    <div key={item.title} className="flex justify-between mt-4">
+                      <div className="flex gap-4">
+                        <button type="button" style={{color: item.iconColor,backgroundColor: item.iconBg}} className="text-2xl rounded-lg p-4 hover:drop-shadow-xl">
+                          {item.icon}
+                        </button>
+                        <div>
+                          <p className="text-md font-semibold">{item.title}</p>
+                          <p className="text-sm text-gray-400">{item.desc}</p>
+                        </div>
+                      </div>
+                      <p className={`text-${item.pcColor}`}>{item.amount}</p>
+                    </div>
+                  ))}
+                </div>
+                <div className="flex justify-between items-center mt-5 border-t-1 border-color">
+                  <div className="mt-3">
+                    <Button color="white" bgColor={currentColor} text="Add" borderRadius="10px" />
+                  </div>
+                  <p className="text-gray-400 text-sm">36 Recent Transactions</p>
+                </div>
+              </div>
+              <div className="bg-white dark:text-gray-200 dark:bg-secondary-dark-bg p-6 rounded-2xl w-96 md:w-760">
+                <div className="flex justify-between items-center gap-2 mb-10">
+                  <p className="text-xl font-semibold">Sales Overview</p>
+                    <DropDown currentMode={currentMode} />
+                </div>
+                <div className="md:w-full overflow-auto">
+                  <LineChart />
+                </div>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap justify-center">
+      <div className="md:w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+        <div className="flex justify-between">
+          <p className="text-xl font-semibold">Weekly Stats</p>
+          <button type="button" className="text-xl font-semibold text-gray-500">
+            <IoIosMore />
+          </button>
+        </div>
+        <div className="mt-10 ">
+          {weeklyStats.map((item) => (
+            <div key={item.title} className="flex justify-between mt-4 w-full">
+              <div className="flex gap-4">
+                <button type="button" style={{ background: item.iconBg }} className="text-2xl hover:drop-shadow-xl text-white rounded-full p-3">
+                  {item.icon}
+                </button>
+                <div>
+                  <p className="text-md font-semibold">{item.title}</p>
+                  <p className="text-sm text-gray-400">{item.desc}</p>
+                </div>
+              </div>
+              <p className={`text-${item.pcColor}`}>{item.amount}</p>
+            </div>
+          ))}
+          <div className="mt-4">
+            <SparkLine currentColor={currentColor} id="area-sparkLine" height="160px" type="Area" data={SparklineAreaData} width="320" color="rgb(242, 252, 253)" />
+          </div>
+        </div>
+      </div>
+      <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+        <div className="flex justify-between">
+          <p className="text-xl font-semibold">MedicalPro Branding</p>
+          <button type="button" className="text-xl font-semibold text-gray-400">
+            <IoIosMore />
+          </button>
+        </div>
+        <p className="text-xs cursor-pointer hover:drop-shadow-xl font-semibold rounded-lg w-24 bg-orange-400 py-0.5 px-2 text-gray-200 mt-10">
+            16 APR, 2021
+        </p>
+        <div className="flex gap-4 border-b-1 border-color mt-6">
+          {medicalproBranding.data.map((item) => (
+            <div key={item.title} className="border-r-1 border-color pr-4 pb-2">
+              <p className="text-xs text-gray-400">{item.title}</p>
+              <p className="text-sm">{item.desc}</p>
+            </div>
+          ))}
+        </div>
+        <div className="border-b-1 border-color pb-4 mt-2">
+          <p className="text-md font-semibold mb-2">Teams</p>
+          <div className="flex gap-4">
+            {medicalproBranding.teams.map((item) => (
+              <p key={item.name} style={{ background: item.color }} className="cursor-pointer hover:drop-shadow-xl text-white py-0.5 px-3 rounded-lg text-xs">
+                {item.name}
+              </p>
+            ))}
+          </div>
+        </div>
+        <div className="mt-2">
+          <p className="text-md font-semibold mb-2">Leaders</p>
+          <div className="flex gap-4">
+            {medicalproBranding.leaders.map((item, index) => (
+              <img key={index} className="rounded-full w-8 h-8" src={item.image} alt="" />
+            ))}
+          </div>
+        </div>
+        <div className="flex justify-between items-center mt-5 border-t-1 border-color">
+          <div className="mt-3">
+            <Button color="white" bgColor={currentColor} text="Add" borderRadius="10px" />
+          </div>
+          <p className="text-gray-400 text-sm">36 Recent Transactions</p>
+        </div>
+      </div>
+      <div className="w-400 bg-white dark:text-gray-200 dark:bg-secondary-dark-bg rounded-2xl p-6 m-3">
+        <div className="flex justify-between">
+          <p className="text-xl font-semibold">Daily Activities</p>
+          <button type="button" className="text-xl font-semibold text-gray-500">
+            <IoIosMore />
+          </button>
+        </div>
+        <div className="mt-5">
+            <img className="md:w-96 h-50 " src={product9} alt="" />
+            <div className="mt-8">
+              <p className="font-semibold text-lg">React Dashboard with SyncFusion</p>
+              <p className="text-gray-400 ">By Pablo Clueless</p>
+              <p className="mt-8 text-sm text-gray-400">
+                SyncFusion has some great ready-to-use components that make building a dashboard of any kind really easy.
+              </p>
+              <div className="mt-3">
+                <Button color="white" bgColor={currentColor} text="Read More" borderRadius="10px" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+            
           </div>
         </div>
       </div>
