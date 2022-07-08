@@ -11,7 +11,7 @@ const activeLink = 'flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-whi
 const inactiveLink = 'flex items-center gap-5 pl-4 pt-3 pb-2.5 rounded-lg text-md text-gray-700 dark:text-gray-200 dark:hover:text-black hover:bg-light-gray m-2'
 
 const Sidebar = () => {
-  const { activeMenu, setActiveMenu, screenSize } = useStateContext()
+  const { activeMenu, setActiveMenu, screenSize, currentColor } = useStateContext()
 
   const handleCloseSideBar = () => {
     activeMenu && screenSize <= 900 && setActiveMenu(false)
@@ -23,7 +23,7 @@ const Sidebar = () => {
         <>
         <div className='flex justify-between items-center'>
           <Link to='/' onClick={handleCloseSideBar} className='items-center gap-3 ml-3 mt-4 flex text-xl font-extrabold tracking-tight dark:text-white text-slate-900'>
-            <SiShopware /><span>Admin Dashboard</span>
+            <SiShopware /><span>React Dashboard</span>
           </Link>
           <TooltipComponent content='Menu' position='BottomCenter'>
             <button type='button' onClick={() => setActiveMenu((prevState) => !prevState)} className='text-xl rounded-full p-3 hover:bg-light-gray mt-4 block md:hidden'>
@@ -38,7 +38,7 @@ const Sidebar = () => {
                 {item.title}
               </p>
               {item.links.map((link) => (
-                <NavLink to={`${link.name}`} key={link.name} onClick={handleCloseSideBar} className={({isActive}) => isActive ? activeLink : inactiveLink }>
+                <NavLink to={`${link.name}`} key={link.name} onClick={handleCloseSideBar} className={({isActive}) => isActive ? activeLink : inactiveLink} style={({isActive}) => ({background: isActive ? currentColor: ' '})}>
                   {link.icon} <span className='capitalize'>{link.name}</span>
                 </NavLink>
               ))}

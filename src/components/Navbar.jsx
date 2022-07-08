@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import { AiOutlineMenu } from 'react-icons/ai'
-import { FiShoppingCart } from 'react-icons/fi'
+import { FiShoppingCart, FiSun, FiMoon } from 'react-icons/fi'
 import { BsChatLeft } from 'react-icons/bs'
 import { RiNotification3Line } from 'react-icons/ri'
 import { MdKeyboardArrowDown } from 'react-icons/md'
@@ -21,7 +21,7 @@ const NavButton = ({ title, customFn, color, icon, dotColor }) => (
 
 
 const Navbar = () => {
-  const { activeMenu, setActiveMenu, isClicked, seIsClicked, handleClick, screenSize, setScreenSize } = useStateContext()
+  const { activeMenu, setActiveMenu, isClicked, seIsClicked, handleClick, screenSize, setScreenSize, currentColor, currentMode, setMode } = useStateContext()
   
   useEffect(() => {
     const handleScreenResize = () => setScreenSize(window.innerWidth)
@@ -38,12 +38,17 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between p-2 md:mx-6 relative'>
-      <NavButton title='Menu' customFn={() => setActiveMenu((prevState) => !prevState)} color='red' icon={<AiOutlineMenu />} />
+      <NavButton title='Menu' customFn={() => setActiveMenu((prevState) => !prevState)} color={currentColor} icon={<AiOutlineMenu />} />
 
       <div className="flex">
-        <NavButton title='Cart' customFn={() => {handleClick('cart')}} color='red' icon={<FiShoppingCart />} />
-        <NavButton title='Chat' customFn={() => {handleClick('chat')}} color='red' icon={<BsChatLeft />} dotColor='red' />
-        <NavButton title='Notification' customFn={() => {handleClick('notification')}} color='red' icon={<RiNotification3Line />} dotColor='red' />
+        <NavButton title='Cart' customFn={() => handleClick('cart')} color={currentColor} icon={<FiShoppingCart />} />
+        <NavButton title='Chat' customFn={() => handleClick('chat')} color={currentColor} icon={<BsChatLeft />} dotColor={currentColor} />
+        <NavButton title='Notification' customFn={() => handleClick('notification')} color={currentColor} icon={<RiNotification3Line />} dotColor={currentColor} />
+
+        {currentMode === 'Light' ? 
+          <NavButton title='Dark Mode' customFn={() => setMode('Dark')} color={currentColor} icon={<FiMoon />} /> :
+          <NavButton title='Light Mode' customFn={() => setMode('Light')} color={currentColor} icon={<FiSun />} />
+        }
 
         <TooltipComponent content='Profile' position='BottomCenter'>
           <div className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg" onClick={() => handleClick('profile')}>

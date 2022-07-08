@@ -222,7 +222,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Lagos',
+    name: 'Uyo',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -232,7 +232,7 @@ export const areaCustomSeries = [
     dataSource: areaChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'France',
+    name: 'Ibadan',
     opacity: '0.8',
     type: 'SplineArea',
     width: '2',
@@ -250,19 +250,19 @@ export const areaCustomSeries = [
 
 export const barChartData = [
   [
-    { x: 'Lagos', y: 46 },
-    { x: 'GBR', y: 27 },
-    { x: 'CHN', y: 26 },
+    { x: 'NGR', y: 46 },
+    { x: 'EGY', y: 27 },
+    { x: 'GHA', y: 26 },
   ],
   [
-    { x: 'Lagos', y: 37 },
-    { x: 'GBR', y: 23 },
-    { x: 'CHN', y: 18 },
+    { x: 'NGR', y: 37 },
+    { x: 'EGY', y: 23 },
+    { x: 'GHA', y: 18 },
   ],
   [
-    { x: 'Lagos', y: 38 },
-    { x: 'GBR', y: 17 },
-    { x: 'CHN', y: 26 },
+    { x: 'NGR', y: 38 },
+    { x: 'EGY', y: 17 },
+    { x: 'GHA', y: 26 },
   ],
 ]
 
@@ -830,6 +830,10 @@ export const medicalproBranding = {
 
 export const themeColors = [
   {
+    name: 'red-theme',
+    color: '#FF5C8E',
+  },
+  {
     name: 'blue-theme',
     color: '#1A97F5',
   },
@@ -840,10 +844,6 @@ export const themeColors = [
   {
     name: 'purple-theme',
     color: '#7352FF',
-  },
-  {
-    name: 'red-theme',
-    color: '#FF5C8E',
   },
   {
     name: 'indigo-theme',
@@ -3104,7 +3104,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[0],
     xName: 'x',
     yName: 'y',
-    name: 'Makurdi',
+    name: 'Port-Harcourt',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
@@ -3112,7 +3112,7 @@ export const lineCustomSeries = [
   { dataSource: lineChartData[1],
     xName: 'x',
     yName: 'y',
-    name: 'England',
+    name: 'Abuja',
     width: '2',
     marker: { visible: true, width: 10, height: 10 },
     type: 'Line' },
