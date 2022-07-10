@@ -35,15 +35,15 @@ const Search = () => {
   
   return (
     <div className='fixed top-0 left-0 w-screen h-screen flex flex-col items-center bg-transparent py-8 search-backdrop'>
-      <div className='h-full w-3/5 md:w-3/4 bg-white dark:bg-secondary-dark-bg border-1 border-color dark:border-white rounded-lg p-4 overflow-y-scroll'>
-        <div className='flex items-center h-12'>
+      <div className='h-full w-3/5 md:w-3/4 bg-white dark:bg-secondary-dark-bg border-1 border-color dark:border-white rounded-lg p-4'>
+        <div className='flex items-center h-12 mb-16'>
           <input type="text" value={query} onChange={handleSearch} placeholder='Search' className='w-full h-full bg-transparent border-1 border-color dark:border-white rounded-lg px-6 focus:outline-none text-gray-600 dark:text-white' />
           <button type='button' onClick={() => handleUnclick('search')} style={{color: 'rgb(153,171,180)',borderRadius:'50%'}} className='text-xl p-2 m-2 hover:drop-shadow-xl hover:bg-light-gray'>
             <MdOutlineCancel />
           </button>
         </div>
 
-        <div className='mt-4 border-1 border-color dark:border-white rounded-lg'>
+        <div className='h-5/6 border-1 border-color dark:border-white rounded-lg overflow-y-scroll'>
             <div className='p-2'>
               <div className='flex items-center justify-between mb-2 border-b-1 border-color dark:border-white'>
                 <p className='text-lg font-semibold text-gray-600 dark:text-white'>Customers</p>
